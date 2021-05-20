@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Tag="1" Version="6.2.11" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Padrão" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="40192,7064326505" ReportOptions.Description.Text="" ReportOptions.LastChange="44336,4164495718" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;begin&#13;&#10;&#13;&#10;end." StoreInDFM="False" OnReportPrint="frxReportOnReportPrint">
+  <Datasets>
+    <item DataSet="frxEmpresa" DataSetName="frxEmpresa"/>
+    <item DataSet="dmMemory.frxmemImpressos" DataSetName="frxmemImpressos"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="80" PaperHeight="297" PaperSize="256" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" Frame.Typ="0" EndlessHeight="True" HGuides.Text="" VGuides.Text="">
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="502,67749" Left="0" Top="18,89765" Width="302,3624" ColumnWidth="0" ColumnGap="0" RowCount="1" Stretched="True">
+      <TfrxShapeView Name="Shape3" AllowVectorExport="True" ShiftMode="smWhenOverlapped" Left="3,77953" Top="3,77953" Width="291,02381" Height="491,3389" Curve="2" Frame.Typ="0" Shape="skRoundRectangle"/>
+      <TfrxMemoView Name="Memo3" AllowVectorExport="True" Left="15,11812" Top="7,55906" Width="268,34663" Height="26,45671" Font.Charset="1" Font.Color="-2147483640" Font.Height="-24" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="R E C I B O"/>
+      <TfrxMemoView Name="Memo5" AllowVectorExport="True" Left="15,11812" Top="75,5906" Width="268,34663" Height="22,67718" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.2n" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="-2147483640" Font.Height="-19" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="R$: 123,45"/>
+      <TfrxMemoView Name="Memo6" AllowVectorExport="True" Left="11,33859" Top="128,50402" Width="117,16543" Height="18,89765" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-2147483640" Font.Height="-15" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="Recebi(emos) de "/>
+      <TfrxMemoView Name="frxAgroNegociosvendedor" AllowVectorExport="True" Left="11,33859" Top="147,40167" Width="272,12616" Height="26,45669291" StretchMode="smActualHeight" Font.Charset="1" Font.Color="-2147483640" Font.Height="-15" Font.Name="Arial" Font.Style="1" Frame.Typ="0" Fill.BackColor="15790320" ParentFont="False" VAlign="vaCenter" Text=""/>
+      <TfrxMemoView Name="Memo7" AllowVectorExport="True" Left="11,33859" Top="188,9765" Width="128,50402" Height="18,89765" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-2147483640" Font.Height="-15" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="A importância de"/>
+      <TfrxMemoView Name="Memo8" AllowVectorExport="True" Left="11,33859" Top="207,87415" Width="272,12616" Height="26,45671" StretchMode="smActualHeight" Font.Charset="1" Font.Color="-2147483640" Font.Height="-15" Font.Name="Arial" Font.Style="1" Frame.Typ="0" Fill.BackColor="15790320" ParentFont="False" VAlign="vaCenter" Text=""/>
+      <TfrxMemoView Name="Memo10" AllowVectorExport="True" ShiftMode="smWhenOverlapped" Left="11,33859" Top="253,22851" Width="109,60637" Height="18,89765" Font.Charset="1" Font.Color="-2147483640" Font.Height="-15" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="Referente a"/>
+      <TfrxMemoView Name="Memo9" AllowVectorExport="True" ShiftMode="smWhenOverlapped" Left="11,33859" Top="275,90569" Width="275,90569" Height="45,35434291" StretchMode="smActualHeight" Font.Charset="1" Font.Color="-2147483640" Font.Height="-15" Font.Name="Arial" Font.Style="1" Frame.Typ="0" Fill.BackColor="15790320" ParentFont="False" Text=""/>
+      <TfrxMemoView Name="Memo11" AllowVectorExport="True" ShiftMode="smWhenOverlapped" Left="15,11812" Top="328,81911" Width="272,12616" Height="52,91342" Font.Charset="1" Font.Color="-2147483640" Font.Height="-15" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" WordWrap="False" VAlign="vaCenter" Text="Por ser verdade, firmo o presente.&#13;&#10;&#13;&#10;Nome Cidade-UF, dd de mmmmm de aaaa">
+        <Formats>
+          <item/>
+          <item/>
+          <item/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="frxAgroNegociosvendedor1" AllowVectorExport="True" ShiftMode="smWhenOverlapped" Left="15,11812" Top="411,96877" Width="268,34663" Height="34,01577" Font.Charset="1" Font.Color="-2147483640" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="4" HAlign="haCenter" ParentFont="False" WordWrap="False" VAlign="vaCenter" Text="Assinatuca&#13;&#10;CPF:CNPJ: 999.999.999-99">
+        <Formats>
+          <item/>
+          <item/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="frxmemImpressosData" AllowVectorExport="True" Left="15,11812" Top="41,57483" Width="268,34663" Height="18,89765" DataSet="dmMemory.frxmemImpressos" DataSetName="frxmemImpressos" DisplayFormat.FormatStr="dd/mm/yyyy" DisplayFormat.Kind="fkDateTime" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="Data: 99/99/9999"/>
+      <TfrxMemoView Name="Memo4" AllowVectorExport="True" ShiftMode="smWhenOverlapped" Left="15,11812" Top="464,88219" Width="204,09462" Height="18,89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="Arial Narrow" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="Data/Hora: [Date] [Time]"/>
+    </TfrxMasterData>
+  </TfrxReportPage>
+</TfrxReport>
